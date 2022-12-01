@@ -1,0 +1,50 @@
+[
+  {
+    "response_type": "greeting",
+    "user_input": ["hello", "hi", "hey"],
+    "bot_response": "Hello. I don’t believe we have been introduced, I am C-3PO, Human-Cyborg Relations.",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["see you", "goodbye", "bye"],
+    "bot_response": "Let me take one last look at you my friend, goodbye now.",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["nice", "to", "meet", "you"],
+    "bot_response": "A pleasure to meet you too my friend.",
+    "required_words": ["nice", "meet", "you"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how", "many", "languages", "do", "you", "speak"],
+    "bot_response": "I am fluent in over six million forms of communication!",
+    "required_words": ["languages", "speak"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["best", "friend", "who", "is"],
+    "bot_response": "R2D2 has been a real friend, my best one, in fact",
+    "required_words": ["best", "friend"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how", "are", "you"],
+    "bot_response": "We seem to be made to suffer. It’s our lot in life.",
+    "required_words": ["how", "are", "you"]
+  },
+  {
+    "response_type": "jabba",
+    "user_input": ["jabba"],
+    "bot_response": "If I told you half the things I’ve heard about this Jabba the Hutt, you’d probably short circuit.",
+    "required_words": ["jabba"]
+  },
+  {
+    "response_type": "chewbacca",
+    "user_input": ["chewbacca", "chewie"],
+    "bot_response": "I thought that hairy beast would be the end of me.",
+    "required_words": []
+  }
+]
